@@ -10,10 +10,10 @@ namespace EntityFrameWorkCourse
     {
         static void Main(string[] args)
         {
-
-            //Completed Section 1 Introduction
-            //Lecture 1, 2 and 3
-            Console.WriteLine("Started New Course Entity FrameWork");
+            //Section 2
+            //Getting Started
+            //Lecture 4 Introduction
+            Console.WriteLine();
         }
     }
 }
