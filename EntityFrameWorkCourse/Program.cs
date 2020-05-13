@@ -12,7 +12,8 @@ namespace EntityFrameWorkCourse
         {
             //Section 2
             //Getting Started
-            //Lecture 4 Introduction
+            //Lecture 5
+            //What is Entity FrameWork
             Console.WriteLine();
         }
     }
