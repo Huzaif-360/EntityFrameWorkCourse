@@ -12,22 +12,18 @@ namespace EntityFrameWorkCourse
         {
             //Section 2
             //Getting Started
-            //Lecture 6
-            //WorkFlows:
-            /*
-             * Workflows:
-             *  1.Code First
-             *          We do code first and then we do wokr on database
-             *  
-             *  2.DataBase First:
-             *          We do database work first and then we do coding part
-             *  3.Model First:
-             *          We model the problem and then decide what to do, it includes UML designing but this is not liked much
-             *          
-             *    
-             *  1 and 2 are famous 
-            */
-            Console.WriteLine();
+            //Lecture 8
+            var context = new DatabaseFirstDemoEntities();
+            var table = new Table_1
+            {
+               // Body = "Body",
+                DatePublished = DateTime.Now,
+                Title = "Title",
+                PostID = 1
+
+            };
+            context.Table_1.Add(table);
+            context.SaveChanges();
         }
     }
 }
