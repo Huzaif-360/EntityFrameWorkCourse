@@ -10,6 +10,7 @@ namespace EntityFrameWorkCourse
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Started New Course Entity FrameWork");
         }
     }
 }
