@@ -14,8 +14,9 @@ namespace EntityFrameWorkCourse
         {
             //Section 2
             //Getting Started
-            //Lecture 9
-            //Completed Database-First or Code-First?
+            //Lecture 10
+            //Summary
+            
 
 
 
