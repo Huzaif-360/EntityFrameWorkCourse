@@ -12,10 +12,12 @@ namespace EntityFrameWorkCourse
     {
         static void Main(string[] args)
         {
-            //Section 2
-            //Getting Started
-            //Lecture 8
-            
+        //Section 2
+        //Getting Started
+        //Lecture 8
+        //Demo: Code - First Workflow
+
+
         }
 
     }
