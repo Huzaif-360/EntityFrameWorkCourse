@@ -12,11 +12,18 @@ namespace EntityFrameWorkCourse
     using System;
     using System.Collections.Generic;
     
-    public partial class Table_1
+    public partial class Tag
     {
-        public int PostID { get; set; }
-        public System.DateTime DatePublished { get; set; }
-        public string Title { get; set; }
-        public byte[] Body { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Tag()
+        {
+            this.Courses = new HashSet<Course>();
+        }
+    
+        public int TagID { get; set; }
+        public string Name { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Course> Courses { get; set; }
     }
 }

@@ -12,11 +12,12 @@ namespace EntityFrameWorkCourse
     using System;
     using System.Collections.Generic;
     
-    public partial class Table_1
+    public partial class CourseSection
     {
-        public int PostID { get; set; }
-        public System.DateTime DatePublished { get; set; }
+        public int SectionID { get; set; }
+        public int CourseID { get; set; }
         public string Title { get; set; }
-        public byte[] Body { get; set; }
+    
+        public virtual Course Cours { get; set; }
     }
 }

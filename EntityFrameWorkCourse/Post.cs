@@ -12,11 +12,11 @@ namespace EntityFrameWorkCourse
     using System;
     using System.Collections.Generic;
     
-    public partial class Table_1
+    public partial class Post
     {
         public int PostID { get; set; }
         public System.DateTime DatePublished { get; set; }
         public string Title { get; set; }
-        public byte[] Body { get; set; }
+        public string Body { get; set; }
     }
 }

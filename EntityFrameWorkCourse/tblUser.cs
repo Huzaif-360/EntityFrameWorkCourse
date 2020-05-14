@@ -12,11 +12,10 @@ namespace EntityFrameWorkCourse
     using System;
     using System.Collections.Generic;
     
-    public partial class Table_1
+    public partial class tblUser
     {
-        public int PostID { get; set; }
-        public System.DateTime DatePublished { get; set; }
-        public string Title { get; set; }
-        public byte[] Body { get; set; }
+        public int UserID { get; set; }
+        public string Username { get; set; }
+        public int Password { get; set; }
     }
 }
