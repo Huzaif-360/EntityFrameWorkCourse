@@ -15,8 +15,8 @@ namespace EntityFrameWorkCourse
             /*
              * Section 3: Building a Model using Database-First Workflow
              * 
-             * Lecture 16
-             * Dealing with Database Changes
+             * Lecture 17
+             *  Importing Stored Procedures
              * 
 
             */
