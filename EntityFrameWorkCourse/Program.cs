@@ -15,8 +15,8 @@ namespace EntityFrameWorkCourse
             /*
              * Section 3: Building a Model using Database-First Workflow
              * 
-             * Lecture 19
-             *Working with Enums
+             *
+             *Completed Section 3
              * 
 
             */
