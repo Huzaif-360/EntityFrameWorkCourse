@@ -13,10 +13,11 @@ namespace EntityFrameWorkCourse
         static void Main(string[] args)
         {
             /*
-             * Section 3: Building a Model using Database-First Workflow
+             * Started
+             * Section 4: Building a Model using Code-First Workflow
              * 
              *
-             *Completed Section 3
+             *
              * 
 
             */
