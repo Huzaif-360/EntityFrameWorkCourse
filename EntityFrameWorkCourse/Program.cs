@@ -15,10 +15,10 @@ namespace EntityFrameWorkCourse
             /*
              * Section 3: Building a Model using Database-First Workflow
              * 
-             * Lecture 13
-             * A Quick Tour of EDMX Designer
+             * Lecture 14
+             *Uncovering the EDMX
              * 
-             * Whenever we make changes in the file Entity FrameWork creates/ Generates domain classes
+
             */
 
 
