@@ -4,8 +4,9 @@ using System.Data.Entity;
 
 
 
-//Lecture 23 
-//Code First with a New Database
+//Lecture 24
+//Code First with an Existing
+
 namespace CodeFirst
 {
     public class Course
@@ -62,4 +63,3 @@ namespace CodeFirst
         }
     }
 }
-s
