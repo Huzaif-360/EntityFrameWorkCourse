@@ -5,7 +5,12 @@ using System.Data.Entity;
 
 
 //Lecture 24
+//Completed
 //Code First with an Existing
+//Database
+//Model
+//Migration
+// In migration we only run program and make it update the database in SQL Server 
 
 namespace CodeFirst
 {
